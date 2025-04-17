@@ -1,0 +1,43 @@
+h1 {
+display: flex;
+flex-direction: column;
+background-color: lightblue;
+color: yellow;
+box-shadow: 0px 0px 5px #2504a880;
+text-shadow: 2px 2px 4px blue;
+}
+
+body {
+text-align: center;
+
+}
+
+thead {
+background-color: darkblue;
+color: hwb(36 0% 0%);
+
+height: 100px;
+}
+
+table {
+font-weight: bold;
+margin: auto;
+background-color: lightblue;
+color: yellow;
+box-shadow: 0px 0px 5px rgba(37, 4, 168, 0.5);
+text-shadow: 2px 2px 4px blue;
+}
+
+td, th {
+font-size: 15px;
+border: 1px solid hwb(219 13% 16%);
+padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #0a6cfe;
+}
+
+img { 
+height: 150px;
+width: 100px;
+}
